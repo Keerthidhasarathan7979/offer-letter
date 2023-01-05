@@ -1,0 +1,34 @@
+﻿<Window x:Class="offer_letter_project.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:offer_letter_project"
+        mc:Ignorable="d"
+        Title="window2" Height="600" Background="Lavender" Width="800">
+    <Grid>
+    <StackPanel>
+            <StackPanel>
+                <Image Source="https://cdn.shopify.com/s/files/1/0267/6847/4156/files/juro_logo_verlauf_6d6dc98d-14cd-45cb-90c9-d752612d6082.jpg?v=1605001006" Height="63" Width="75"></Image>
+            </StackPanel>
+                
+            
+            <StackPanel>
+                <Label Content="ZURO FINTECH " FontStyle="Italic" FontWeight="ExtraBold" Height="42" Width="425" HorizontalAlignment="Right"></Label>
+                <Label x:Name="lbladd" FontStyle="Normal" FontWeight="Black" HorizontalAlignment="Right"></Label>
+                <Label x:Name="lblcontent" FontStyle="Normal" FontWeight="Black" HorizontalAlignment="Left"></Label>
+                <Label x:Name="lblfinal" FontStyle="Normal" FontWeight="Black"  HorizontalAlignment="Left"></Label>
+                <Label Content="Yours sincerly,, " FontStyle="Normal" FontWeight="DemiBold" FontSize="13" Height="34"></Label>
+                <Label Content=" Richard Mabey" FontStyle="Normal" FontWeight="DemiBold" ></Label>
+                <Label Content="Co-Founder and CEO"></Label>
+                </StackPanel>
+                
+           
+            
+          
+        
+      
+
+    </StackPanel>
+    </Grid>
+</Window>

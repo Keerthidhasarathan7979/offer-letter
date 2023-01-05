@@ -1,0 +1,43 @@
+﻿<Window x:Class="offer_letter_project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:offer_letter_project"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="801" Background="LightPink">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Content="Employment Application" HorizontalAlignment="Center" FontWeight="ExtraBold" Margin="0,7,0,33" ></Label>
+        <Label Content="Name" Grid.Column="0" FontWeight="Bold" Margin="46,57,649,84" Grid.RowSpan="2"></Label>
+        <TextBox Margin="225,60,371,74" x:Name="txtname" FontWeight="Bold" Grid.RowSpan="2"></TextBox>
+        <Label Content="Qualification"  Grid.Row="1" Grid.Column="0" FontWeight="Bold" Margin="46,41,649,17"></Label>
+        <TextBox Grid.Row="1" FontWeight="Bold" Margin="225,40,371,9"></TextBox>
+        <Label Content="Job" Grid.Row="2"  FontWeight="Bold" Margin="46,21,649,36"></Label>
+        <TextBox Grid.Row="2" x:Name="txtjob" Margin="228,18,368,24" FontWeight="Bold" ></TextBox>
+        <Label Content="Salary" Grid.Row="2" Grid.Column="0" Margin="46,74,649,60" FontWeight="Bold" Grid.RowSpan="2"></Label>
+        <TextBox Grid.Row="2"  x:Name="txtsal" Margin="227,76,369,49" Grid.RowSpan="2" FontWeight="Bold"></TextBox>
+        <Label Content="Address"  Grid.Row="3" Grid.Column="0" Margin="41,65,667,62" FontWeight="Bold" Grid.RowSpan="2"></Label>
+        <TextBox Grid.Row="3" x:Name="txtadd" Margin="225,64,371,57" Grid.RowSpan="2" FontWeight="Bold"></TextBox>
+        <Button Content="Submit" x:Name="txtsub" Click="txtsub_Click"  Grid.Row="4" Margin="166,51,518,0" Background="Violet"></Button>
+      
+
+
+
+
+
+
+    </Grid>
+
+
+
+</Window>
